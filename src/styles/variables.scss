@@ -1,0 +1,67 @@
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+$Birthstone:  "Birthstone", sans-serif;
+$Poppins: 'Poppins', sans-serif;
+$Abel: 'Abel', sans-serif;
+//colors
+$nav: #026670;
+$main: #fef9c7;
+$bleu: #9fedd7;
+$yellow:#fce181;
+$grej:#edeae5;
+
+
+$dark: rgb(29,29,29);
+$light: #fff;
+
+
+//spacing
+$spacer: 40px;
+$spacing-md: 16px;
+$spacing-lg: 32px;
+
+//border radius
+$borderRadius: 12px;
+
+//border height
+$borderHeight: 100px;
+
+//mixin
+@mixin breakpoint($point) {
+  @if $point == small {
+    @media (max-width: 600px) { @content; }
+  }
+  @else if $point == medium {
+    @media (max-width: 900px) { @content; }
+  }
+  @else if $point == large {
+    @media (max-width: 1200px) { @content; }
+  }
+  @else if $point == xl {
+    @media (max-width: 1400px) { @content; }
+  }
+}
+
+
+
+//width container
+@media (min-width: 576px){
+  .container{
+    max-width:100%;
+  }
+}
+
+
+
+
+//carousel
+@media (min-width: 992px){
+  .carousel-img{
+    height: 70vh;
+    transition: all  1s ease-in-out ;
+  }
+}

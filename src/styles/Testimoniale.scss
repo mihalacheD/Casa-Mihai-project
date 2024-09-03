@@ -1,0 +1,61 @@
+@import '../styles/variables.scss';
+
+.container-carousel{
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.carousel-items{
+  overflow: hidden;
+}
+.carousel-elements{
+  border: 1px solid $nav;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10vw;
+  padding: 0 0.4em;
+}
+.carousel__title{
+  font-size: 2em;
+  font-weight: bold;
+  color: $nav;
+  text-align: center;
+  margin-top: 1em;
+  font-family: $Birthstone;
+  color: $nav;
+}
+.person-name{
+  padding: 0.5em;
+  font-size: 1em;
+  color: rgb(28, 31, 30);
+}
+.carousel-p{
+  color: black;
+ }
+ .five-star{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.star{
+  padding: 0.1em;
+  color: $yellow;
+}
+.ghilimele-icon{
+ padding: 0.4em;
+ color: $nav;
+}
+//indicators
+.carousel-indicators button {
+  height: 0.7em !important;
+  width: 0.7em!important;
+  margin: 0 10px !important;
+  border-radius: 100%;
+}
+.carousel-control-next-icon,.carousel-control-prev-icon{
+  width: 5rem !important;
+  height: 5rem !important;
+}

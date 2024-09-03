@@ -1,0 +1,50 @@
+
+
+.btn-phone{
+  width: 60px;
+  height: 60px;
+  line-height: 50px;
+  display: block;
+  text-align: center;
+  position: fixed;
+  bottom: 8rem;
+  right: 2rem;
+  cursor: pointer;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  border-right: none;
+  border: 0;
+  user-select: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15 );
+  z-index: 9999;
+  transform: all .5s ease;
+}
+
+
+.btn-phone-border::before {
+	content: "";
+	position: absolute;
+  top: 2rem;
+  right: -1.9rem;
+	border-radius: 50%;
+  z-index: 9999;
+	padding: 20px;
+	border: 10px solid #25d366;
+	opacity: 0.2;
+	animation-name: pulse-border;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+}
+
+@keyframes pulse-border {
+	0% {
+	  transform: translateX(-50%) translateY(-50%) translateZ(0)scale(1);
+    opacity: 0.4;
+	}
+  100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0)scale(1.5);
+    opacity: 0.1;
+  }
+}

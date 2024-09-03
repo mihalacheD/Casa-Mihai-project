@@ -1,0 +1,95 @@
+@import '../styles/variables.scss';
+
+//all pages
+.pages-row{
+  margin-bottom: 2rem;
+  padding: 1em 2em;
+  @include breakpoint(small){
+    padding: 0.5em 0.5em;
+  }
+  @media (min-width: 1200px) {
+    padding: 1em 5em;
+  }
+}
+
+.pages-col{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+      @media (min-width: 992px) {
+        margin-left: 2em;
+      }
+}
+.pages-img{
+  border:1em solid white;
+  @media (max-width: 992px){
+    order: 1;
+   }
+}
+.pages-title{
+  font-size: 2em;
+  font-family: $Abel;
+}
+//transfer
+.transfer-row{
+  text-align: start;
+  margin-bottom: 2rem;
+  padding: 1em 2em;
+      @include breakpoint(small){
+        padding: 0.5em 0.5em;
+      }
+      @media (min-width: 1200px) {
+        padding: 1em 10em;
+      }
+}
+//contact
+.contact-col{
+  margin: auto;
+}
+.contact-link{
+  text-decoration: none;
+  color: $nav;
+}
+.contact-link:hover{
+  text-decoration: underline;
+}
+.map{
+  width: auto;
+  height: 50vh;
+  border: 0px;
+  margin-bottom: 3rem;
+}
+//galerie
+.galerie-col{
+  position: relative;
+}
+.galerie-p{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 4vw;
+  text-shadow: 1px 1px 2px black;
+}
+//despre noi
+.despre-row{
+  text-indent: 3em;
+  @media (max-width: 600px) {
+    padding: 0.75em;
+  }
+  @media (min-width: 600px) {
+    padding: 1em 3em;
+  }
+  @media (min-width: 992px) {
+    padding: 1em 7em;
+  }
+}
+.despre-col{
+  box-shadow: 5px 5px 5px rgb(199, 194, 194);
+}
