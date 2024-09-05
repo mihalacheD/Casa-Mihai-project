@@ -8,8 +8,6 @@ import { useState} from 'react';
 import '../Pages/GalerieData.jsx';
 import GalerieData from "../Pages/GalerieData.jsx";
 
-
-
 function Galerie(){
 
   const [picture] = useState(GalerieData)

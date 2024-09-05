@@ -3,6 +3,9 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Carousel from 'react-bootstrap/Carousel';
 import Image from 'react-bootstrap/Image';
+import barca from '../assets/barca-rapida.jpg';
+import catamaran from '../assets/catamaran.jpg';
+import vapor from '../assets/vapor.jpg';
 
 function Transfer(){
   return(
@@ -43,19 +46,19 @@ function Transfer(){
      <Col style={{ border:'1em solid white' }} sm={12} md={12} lg={6} className='p-5 m-auto'>
         <Carousel>
       <Carousel.Item interval={1000}>
-        <Image src='../src/assets/barca-rapida.webp' fluid/>
+        <Image src= {barca} fluid/>
         <Carousel.Caption>
           <h1>Ambarcațiune rapidă</h1>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={500}>
-        <Image src='../src/assets/catamaran.jpg' fluid/>
+        <Image src={catamaran} fluid/>
         <Carousel.Caption>
         <h1>Catamaran</h1>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image src='../src/assets/vapor.jpg' fluid/>
+        <Image src= {vapor} fluid/>
         <Carousel.Caption>
         <h1>Nava clasică</h1>
         </Carousel.Caption>

@@ -3,6 +3,10 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import '../styles/Pages.scss';
+import far from '../assets/far.jpg';
+import plaja from '../assets/plaja2.jpg';
+import pescuit from '../assets/pescuit.jpg';
+import catedrala from '../assets/catedrala.jpg';
 
 function Activitati(){
 
@@ -25,13 +29,13 @@ function Activitati(){
           </p>
         </Col>
         <Col className='pages-img p-5'>
-        <Image src='../src/assets/far.jpg' fluid/>
+        <Image src= {far} fluid/>
         </Col>
       </Row>
                {/*plaja*/}
      <Row className='pages-row'>
         <Col className='pages-img p-5'>
-            <Image src='../src/assets/plaja2.jpg' fluid/>
+            <Image src= {plaja} fluid/>
         </Col>
         <Col sm={12} md={12} lg={6} className='pages-col'>
             <h1 className='pages-title'>Plaja Sulina</h1>
@@ -50,13 +54,13 @@ function Activitati(){
           </p>
         </Col>
         <Col className='pages-img p-5'>
-        <Image src='../src/assets/pescuit.jpg' fluid/>
+        <Image src={pescuit}  fluid/>
         </Col>
       </Row>
              {/*obiective*/}
              <Row className='pages-row'>
         <Col className='pages-img p-5'>
-            <Image src='../src/assets/catedrala.jpg' fluid/>
+            <Image src={catedrala}  fluid/>
         </Col>
         <Col sm={12} md={12} lg={6} className='pages-col'>
             <h1 className='pages-title'>Obiective turistice</h1>

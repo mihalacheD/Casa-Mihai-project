@@ -11,6 +11,14 @@ import { MdOutdoorGrill } from "react-icons/md";
 import { FaUmbrellaBeach } from "react-icons/fa6";
 import  '../Components/Testimoniale';
 import Testimoniale from '../Components/Testimoniale';
+import camera1 from '../assets/camera-double1.jpg';
+import camera2 from '../assets/camera-double2.jpg'
+import camera3 from '../assets/camera-double3.jpg';
+import camera4 from '../assets/camera-double4.jpg';
+import camera5 from '../assets/camera-double5.jpg';
+import camera6 from '../assets/camera-deluxe1.jpg';
+import camera7 from '../assets/camera-deluxe2.jpg';
+import camera8 from '../assets/camera-deluxe3.jpg';
 
 
 function Camere(){
@@ -87,35 +95,35 @@ function Camere(){
         <Col style={{ border:'1em solid white' }} sm={12} md={6} className='p-5'>
         <Carousel>
       <Carousel.Item interval={1000}>
-        <Image src='../src/assets/camera-double1.jpg' fluid/>
+        <Image src= {camera1} fluid/>
         <Carousel.Caption>
           <h1>Cameră dublă</h1>
           <p>Preț/noapte începe de la 200 RON</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={500}>
-        <Image src='../src/assets/camera-double2.jpg' fluid />
+        <Image src={camera2} fluid />
         <Carousel.Caption>
         <h1>Cameră dublă</h1>
         <p>Preț/noapte începe de la 200 RON</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image src='../src/assets/camera-double3.jpg' fluid />
+        <Image src={camera3} fluid />
         <Carousel.Caption>
         <h1>Cameră dublă</h1>
         <p>Preț/noapte începe de la 200 RON</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={1000}>
-        <Image src='../src/assets/camera-double4.jpg' fluid/>
+        <Image src={camera4} fluid/>
         <Carousel.Caption>
           <h1>Cameră dublă</h1>
           <p>Preț/noapte începe de la 200 RON</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={500}>
-        <Image src='../src/assets/camera-double5.jpg' fluid />
+        <Image src={camera5} fluid />
         <Carousel.Caption>
         <h1>Cameră dublă</h1>
         <p>Preț/noapte începe de la 200 RON</p>
@@ -128,21 +136,21 @@ function Camere(){
         <Col style={{ border:'1em solid white' }} sm={12} md={6} className='p-5'>
         <Carousel>
       <Carousel.Item interval={1000}>
-        <Image src='../src/assets/camera-deluxe1.jpg' fluid/>
+        <Image src={camera6} fluid/>
         <Carousel.Caption>
           <h1>Camera deluxe</h1>
           <p>Preț/noapte începe de la 300 RON</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={500}>
-        <Image src='../src/assets/camera-deluxe2.jpg' fluid/>
+        <Image src={camera7} fluid/>
         <Carousel.Caption>
         <h1>Camera deluxe</h1>
         <p>Preț/noapte începe de la 300 RON</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image src='../src/assets/camera-deluxe3.jpg' fluid/>
+        <Image src={camera8} fluid/>
         <Carousel.Caption>
         <h1>Camera deluxe</h1>
         <p>Preț/noapte începe de la 300 RON</p>
