@@ -5,6 +5,10 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import '../styles/Pages.scss';
 import { IoFishOutline } from "react-icons/io5";
+import storceac from '../assets/storceag.webp';
+import saramura from '../assets/saramura.jpg';
+import plachie from '../assets/plachie.jpg';
+import ciorba from '../assets/ciorba.jpg';
 
 function Gastronomia(){
   return(
@@ -37,13 +41,13 @@ function Gastronomia(){
         </p>
       </Col>
       <Col className='pages-img p-5'>
-      <Image src='../src/assets/storceag.webp' fluid/>
+      <Image src= {storceac} fluid/>
       </Col>
     </Row>
              {/*Saramura de peste*/}
    <Row className='pages-row'>
       <Col className='pages-img p-5'>
-          <Image src='../src/assets/saramura.jpg' fluid/>
+          <Image src= {saramura} fluid/>
       </Col>
       <Col sm={12} md={12} lg={6} className='pages-col'>
           <h1 className='pages-title'>Saramură de pește</h1>
@@ -73,13 +77,13 @@ function Gastronomia(){
         </p>
       </Col>
       <Col className='pages-img p-5'>
-      <Image src='../src/assets/plachie.jpg' fluid/>
+      <Image src= {plachie} fluid/>
       </Col>
     </Row>
            {/*ciorba de peste*/}
            <Row className='pages-row'>
       <Col className='pages-img p-5'>
-          <Image src='../src/assets/ciorba.jpg' fluid/>
+          <Image src= {ciorba}  fluid/>
       </Col>
       <Col sm={12} md={12} lg={6} className='pages-col'>
           <h1 className='pages-title'>Ciorba de pește</h1>

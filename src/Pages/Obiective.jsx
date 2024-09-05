@@ -8,6 +8,10 @@ import { PiBuildingApartmentThin } from "react-icons/pi";
 import { PiChurchLight } from "react-icons/pi";
 import { TbBeachOff } from "react-icons/tb";
 import { GiPirateFlag } from "react-icons/gi";
+import palat from '../assets/palatul.jpg';
+import biserica from '../assets/biserica.jpg';
+import plaja from '../assets/plaja3.jpg';
+import cimitir from '../assets/cimitirul.jpg';
 
 
 function Obiective(){
@@ -42,13 +46,13 @@ function Obiective(){
         </p>
       </Col>
       <Col className='pages-img p-5'>
-      <Image src='../src/assets/palatul.jpg' fluid/>
+      <Image src= {palat} fluid/>
       </Col>
     </Row>
              {/*bisericile*/}
    <Row className='pages-row'>
       <Col className='pages-img p-5'>
-          <Image src='../src/assets/biserica.jpg' fluid/>
+          <Image src= {biserica}  fluid/>
       </Col>
       <Col sm={12} md={12} lg={6} className='pages-col'>
           <h1 className='pages-title'>Bisericile Sulinei, închinate ocrotitorului marinarilor</h1>
@@ -83,13 +87,13 @@ function Obiective(){
         </p>
       </Col>
       <Col className='pages-img p-5'>
-      <Image src='../src/assets/plaja3.jpg' fluid/>
+      <Image src= {plaja} fluid/>
       </Col>
     </Row>
            {/*cimitirul*/}
            <Row className='pages-row'>
       <Col className='pages-img p-5'>
-          <Image src='../src/assets/cimitirul.jpg' fluid/>
+          <Image src= {cimitir} fluid/>
       </Col>
       <Col sm={12} md={12} lg={6} className='pages-col'>
           <h1 className='pages-title'>Cimitirul cosmopolit al orașului</h1>

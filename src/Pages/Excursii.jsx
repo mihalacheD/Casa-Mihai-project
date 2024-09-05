@@ -7,6 +7,11 @@ import '../styles/Pages.scss';
 import { TbMap2 } from "react-icons/tb";
 import { BsClockHistory } from "react-icons/bs";
 import { LuMapPin } from "react-icons/lu";
+import letea from '../assets/letea.jpeg';
+import far from '../assets/far2.jpg';
+import mila23 from '../assets/mila23.jpg';
+import sfgheorghe from '../assets/sfgheorghe.jpg';
+
 
 function Excursii(){
   return(
@@ -32,13 +37,13 @@ function Excursii(){
         </p>
       </Col>
       <Col className='pages-img p-5'>
-      <Image src='../src/assets/letea.jpeg' fluid/>
+      <Image src= {letea} fluid/>
       </Col>
     </Row>
              {/*gura de vrasare*/}
    <Row className='pages-row'>
       <Col className='pages-img p-5'>
-          <Image src='../src/assets/far2.jpg' fluid/>
+          <Image src={far} fluid/>
       </Col>
       <Col sm={12} md={12} lg={6} className='pages-col'>
           <h1 className='pages-title'>Excursie Gura de vărsare a Dunarii in Marea Neagra</h1>
@@ -64,13 +69,13 @@ function Excursii(){
         </p>
       </Col>
       <Col className='pages-img p-5'>
-      <Image src='../src/assets/mila23.jpg' fluid/>
+      <Image src={mila23} fluid/>
       </Col>
     </Row>
            {/*sf gheorghe*/}
            <Row className='pages-row'>
       <Col className='pages-img p-5'>
-          <Image src='../src/assets/sfgheorghe.jpg' fluid/>
+          <Image src= {sfgheorghe} fluid/>
       </Col>
       <Col sm={12} md={12} lg={6} className='pages-col'>
           <h1 className='pages-title'>Excursie la Sf. Gheorghe (traseu scurt)</h1>

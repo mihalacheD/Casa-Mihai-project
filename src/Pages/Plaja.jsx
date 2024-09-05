@@ -5,6 +5,10 @@ import Col from 'react-bootstrap/Col';
 import '../styles/Pages.scss';
 import Image from 'react-bootstrap/Image';
 import { MdOutlineBeachAccess } from "react-icons/md";
+import plaja1 from '../assets/plaja5.jpeg';
+import plaja2 from '../assets/plaja4.jpg';
+import plaja3 from '../assets/plaja3.jpg';
+import volbura from '../assets/volbura.jpg';
 
 function Plaja(){
   return(
@@ -34,13 +38,13 @@ function Plaja(){
         </p>
       </Col>
       <Col className='pages-img p-5'>
-      <Image src='../src/assets/plaja5.jpeg' fluid/>
+      <Image src= {plaja1} fluid/>
       </Col>
     </Row>
              {/*plaja*/}
    <Row className='pages-row'>
       <Col className='pages-img p-5'>
-          <Image src='../src/assets/plaja4.jpg' fluid/>
+          <Image src= {plaja2} fluid/>
       </Col>
       <Col sm={12} md={12} lg={6} className='pages-col'>
           <h1 className='pages-title'>Plaja astazi</h1>
@@ -67,13 +71,13 @@ function Plaja(){
         </p>
       </Col>
       <Col className='pages-img p-5'>
-      <Image src='../src/assets/plaja3.jpg' fluid/>
+      <Image src= {plaja3} fluid/>
       </Col>
     </Row>
            {/*plaja*/}
            <Row className='pages-row'>
       <Col className='pages-img p-5'>
-          <Image src='../src/assets/volbura.jpg' fluid/>
+          <Image src= {volbura} fluid/>
       </Col>
       <Col sm={12} md={12} lg={6} className='pages-col'>
           <h1 className='pages-title'>De ce este specială?</h1>
@@ -81,7 +85,7 @@ function Plaja(){
           <MdOutlineBeachAccess className="content-icon"/>
           Se spune despre nisipul de pe plaja din Sulina că e bun de clepsidră,
           iar noi confirmăm că așa este! Datorită nisipului aici crește o plantă rară
-          aflată pe lista roșie a speciilor protejate : Volbura de nisip. 
+          aflată pe lista roșie a speciilor protejate : Volbura de nisip.
           </p>
       </Col>
     </Row>
